@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
+    # checkout to the commit that has been pushe
     - uses: actions/checkout@v3
 
     - name: Setup Hugo
