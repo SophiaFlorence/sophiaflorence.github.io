@@ -1,0 +1,93 @@
+# section information
+section:
+  name: Fertigkeiten
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Basic
+  filter: "basic"
+- name: Language
+  filter: "language"
+- name: Container
+  filter: "container"
+- name: Others
+  filter: "others"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+# Your Skills.
+skills:
+  - name: Python
+    logo: /images/sections/skills/python.png
+    summary: "Extensively used for data analysis, scientific computing, and automation across multiple research projects."
+    categories: ["basic", "language"]
+    url: "https://www.python.org/"
+
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Primary operating system for development and scientific computing; proficient in shell scripting and system management."
+    categories: ["others"]
+    url: "https://www.linux.org/"
+
+  - name: macOS
+    logo: /images/sections/skills/macOS.png
+    summary: "Experienced with macOS for development, leveraging its Unix-based tools and system capabilities."
+    categories: ["others"]
+    url: "https://www.apple.com/macos/"
+
+  - name: Windows
+    logo: /images/sections/skills/windows.png
+    summary: "Familiar with Windows development environments and cross-platform toolchains for research applications."
+    categories: ["others"]
+    url: "https://www.microsoft.com/windows/"
+
+  - name: C++
+    logo: /images/sections/skills/c++.png
+    summary: "Skilled in C++ for performance-critical applications and simulation tools in scientific computing."
+    categories: ["basic", "language"]
+    url: "https://isocpp.org/"
+
+  - name: VSCode
+    logo: /images/sections/skills/vscode.png
+    summary: "Leverages VSCode for its modern development workflow, rich extensions, and debugging support."
+    categories: ["others"]
+    url: "https://code.visualstudio.com/"
+
+  - name: LaTeX
+    logo: /images/sections/skills/latex.png
+    summary: "Expert in LaTeX for academic writing and producing high-quality scientific publications."
+    categories: ["others"]
+    url: "https://www.latex-project.org/"
+
+  - name: Bash
+    logo: /images/sections/skills/bash.png
+    summary: "Familiar in Bash scripting for automation, data processing, and system administration on Unix-like systems."
+    categories: ["others"]
+    url: "https://www.gnu.org/software/bash/"
+
+  - name: Geant4
+    logo: /images/sections/skills/geant4.png
+    summary: "Familiar with Geant4 for simulating particle interactions and modeling detector responses in nuclear physics."
+    categories: ["others"]
+    url: "https://geant4.web.cern.ch/"
+
+  - name: ROOT
+    logo: /images/sections/skills/root.png
+    summary: "Experienced with ROOT for data analysis in high energy and nuclear physics experiments."
+    categories: ["basic", "others"]
+    url: "https://root.cern/"
+
+  - name: Jupyter
+    logo: /images/sections/skills/jupyter.png
+    summary: "Uses Jupyter notebooks for interactive data analysis, visualization, and reproducible research workflows."
+    categories: ["others"]
+    url: "https://jupyter.org/"

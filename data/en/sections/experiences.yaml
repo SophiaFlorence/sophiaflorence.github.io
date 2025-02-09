@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Los Alamos National Laboratory
+    url: "https://www.lanl.gov/"
+    location: Los Alamos, New Mexico, United States of America
+    logo: /images/sections/experiences/losalamos.jpg
+    overview: Best known for its central role in helping develop the first atomic bomb, LANL is one of the world's largest and most advanced scientific institutions.
+  positions:
+  - designation: Postdoctoral Researcher in the Particle and Nuclear Physics and Applications Group (P-3)
+    start: Aug 2024
+
+- company:
+    name: Goethe University, Institute for Applied Physics
+    url: "https://www.mpi-hd.mpg.de/mpi/en/"
+    location: Frankfurt am Main, Germany
+    logo: /images/sections/education/goethe.svg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Goethe University Frankfurt, established in 1914, is a prominent public research institution in Frankfurt am Main, Germany. Named after the renowned writer Johann Wolfgang von Goethe, the university is recognized for its contributions to various fields, including economics, law, and the humanities.
+  positions:
+  - designation: Postdoctoral Researcher at the Experimental Astrophysics Group
+    start: July 2024
+    end: April 2024
+
+  - designation: Doctoral Researcher at the Experimental Astrophysics Group
+    start: May 2021
+    end: February 2024

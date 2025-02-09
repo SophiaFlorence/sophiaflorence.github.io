@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Experiencia
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Laboratorio Nacional de los Alamos
+    url: "https://www.lanl.gov/"
+    location: Los Alamos, Nuevo Mexico, Estados Unidos
+    logo: /images/sections/experiences/losalamos.jpg
+    overview: Mejor conocido por su papel central en ayudar a desarrollar la primera bomba atómica, LANL es una de las instituciones científicas más grandes y avanzadas del mundo.
+  positions:
+  - designation: Investigadora Postdoctoral en el Grupo de Física de Partículas y Nuclear y Aplicaciones (P-3)
+    start: Agosto 2024
+
+- company:
+    name: Universidad de Frankfurt, Instituto de Física Aplicada
+    url: "https://www.mpi-hd.mpg.de/mpi/en/"
+    location: Frankfurt, Alemania
+    logo: /images/sections/education/goethe.svg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: La Universidad Goethe de Fráncfort, fundada en 1914, es una destacada institución pública de investigación situada en Fráncfort del Meno (Alemania). La universidad, que lleva el nombre del célebre escritor Johann Wolfgang von Goethe, es reconocida por sus contribuciones en diversos campos, como la economía, el derecho y las humanidades.
+  positions:
+  - designation: Investigadora Postdoctoral en el Grupo de Astrofísica Nuclear
+    start: July 2024
+    end: April 2024
+
+  - designation: Investigadora Predoctoral en el Grupo de Astrofísica Nuclear
+    start: May 2021
+    end: February 2024

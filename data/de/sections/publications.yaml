@@ -1,0 +1,471 @@
+# section information
+section:
+  name: Veröffentlichungen
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Neutron Capture"
+  filter: "neutron capture"
+- name: "Nuclear Physics"
+  filter: "nuclear physics"
+- name: "Storage Rings"
+  filter: "storage rings"
+- name: "Astrophysics"
+  filter: "astrophysics"
+
+
+publications:
+  - title: "Description and outlook of the 50,53Cr(n,γ) cross section measurement at n_TOF and HiSPANoS"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2024"
+      url: "https://doi.org/10.1051/epjconf/202429401004"
+    authors:
+      - name: "P. Pérez-Maroto"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202429401004"
+    categories: ["nuclear physics", "cross section measurement"]
+    tags: ["n_TOF", "HiSPANoS", "Cr(n,γ)"]
+
+  - title: "Experimental setup of the 239Pu neutron capture and fission cross‐section measurements at n_TOF, CERN"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2024"
+      url: "https://doi.org/10.1051/epjconf/202429401003"
+    authors:
+      - name: "Adrian Sanchez-Caballero"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202429401003"
+    categories: ["nuclear physics", "neutron capture", "fission"]
+    tags: ["n_TOF", "CERN"]
+
+  - title: "The n_TOF facility at CERN"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2024"
+      url: "https://doi.org/10.1051/epjconf/202429212002"
+    authors:
+      - name: "G. Tagliente"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202429212002"
+    categories: ["nuclear physics", "facility report"]
+    tags: ["n_TOF", "CERN"]
+
+  - title: "The n_TOF facility at CERN"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2024"
+      url: "https://doi.org/10.1051/epjconf/202429701013"
+    authors:
+      - name: "G. Tagliente"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/epjconf/202429701013"
+    categories: ["nuclear physics", "facility report"]
+    tags: ["n_TOF", "CERN"]
+
+  - title: "Multi-section fission ionization chamber for measurement of the 239Pu(n,γ) reaction in fission tagging method"
+    publishedIn:
+      name: "Nuclear Instruments and Methods in Physics Research Section A"
+      date: "2024-10"
+      url: "https://doi.org/10.1016/j.nima.2024.169649"
+    authors:
+      - name: "Perkowski"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1016/j.nima.2024.169649"
+    categories: ["instrumentation", "nuclear physics"]
+    tags: ["fission tagging", "ionization chamber"]
+
+  - title: "Pushing the high count rate limits of scintillation detectors for challenging neutron‐capture experiments"
+    publishedIn:
+      name: "Nuclear Instruments and Methods in Physics Research Section A"
+      date: "2024-07"
+      url: "https://doi.org/10.1016/j.nima.2024.169385"
+    authors:
+      - name: "Javier Balibrea"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1016/j.nima.2024.169385"
+    categories: ["detector development", "nuclear physics", "neutron capture"]
+    tags: ["scintillation", "neutron capture"]
+
+  - title: "Measurement of the Isolated Nuclear Two-Photon Decay in 72Ge"
+    publishedIn:
+      name: "Physical Review Letters"
+      date: "2024-07-11"
+      url: "https://doi.org/10.1103/physrevlett.133.022502"
+    authors:
+      - name: "David Freire-Fernández"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1103/physrevlett.133.022502"
+    categories: ["nuclear physics", "fundamental decay"]
+    tags: ["two-photon decay", "Germanium", "PRL"]
+
+  - title: "A Segmented Total Energy Detector (sTED) optimized for (n,γ) cross-section measurements at n_TOF EAR2"
+    publishedIn:
+      name: "Radiation Physics and Chemistry"
+      date: "2024-04"
+      url: "https://doi.org/10.1016/j.radphyschem.2024.111525"
+    authors:
+      - name: "Victor Alcayne"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1016/j.radphyschem.2024.111525"
+    categories: ["radiation physics", "detector optimization"]
+    tags: ["sTED", "n_TOF", "γ cross-section"]
+
+  - title: "The first in-beam reaction measurement at CRYRING@ESR using the CARME array"
+    publishedIn:
+      name: "The European Physical Journal A"
+      date: "2024-04-29"
+      url: "https://doi.org/10.1140/epja/s10050-024-01318-2"
+    authors:
+      - name: "Jordan J. Marsh"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1140/epja/s10050-024-01318-2"
+    categories: ["nuclear physics", "reaction measurement"]
+    tags: ["CRYRING", "CARME", "in-beam reaction"]
+
+  - title: "Compton imaging for enhanced sensitivity (n,γ) cross section TOF experiments: Status and prospects"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202328401018"
+    authors:
+      - name: "C. Domingo-Pardo"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202328401018"
+    categories: ["nuclear physics", "imaging techniques"]
+    tags: ["Compton imaging", "TOF", "sensitivity"]
+
+  - title: "Coulomb dissociation of 16O into 4He and 12C"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327904003"
+    authors:
+      - name: "Lukas Thomas Bott"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202327904003"
+    categories: ["nuclear physics", "reaction dynamics"]
+    tags: ["Coulomb dissociation", "16O", "α and 12C"]
+
+  - title: "Direct reactions for nuclear astrophysics"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327906005"
+    authors:
+      - name: "Philipp Erbacher"
+      - name: "Benjamin Brückner"
+      - name: "Sophia Florence Dellmann"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202327906005"
+    categories: ["nuclear astrophysics", "direct reactions"]
+    tags: ["n_TOF", "astrophysics"]
+
+  - title: "First measurement of the 94Nb(n,γ) cross section at the CERN n_TOF facility"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327906004"
+    authors:
+      - name: "J. Balibrea-Correa"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/epjconf/202327906004"
+    categories: ["nuclear physics", "cross section measurement", "neutron capture"]
+    tags: ["94Nb", "n_TOF", "neutron capture"]
+
+  - title: "Indirect measurements of neutron-induced reaction cross sections at heavy-ion storage rings"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202328401008"
+    authors:
+      - name: "M. Sguazzin"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202328401008"
+    categories: ["nuclear physics", "storage rings"]
+    tags: ["indirect measurement", "neutron-induced"]
+
+  - title: "Indirect measurements of neutron-induced reaction cross sections at storage rings"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327911006"
+    authors:
+      - name: "M. Sguazzin"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202327911006"
+    categories: ["nuclear physics", "storage rings"]
+    tags: ["indirect measurement", "storage rings"]
+
+  - title: "Measurement of the 160Gd(n, γ) cross section at n_TOF and its medical implications"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202328409002"
+    authors:
+      - name: "M. Mastromarco"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202328409002"
+    categories: ["nuclear physics", "medical applications"]
+    tags: ["160Gd", "n_TOF", "cross section"]
+
+  - title: "Measurement of the Isolated Nuclear Two-Photon Decay in 72Ge"
+    publishedIn:
+      name: "Journal article"
+      date: "2023"
+      url: "https://doi.org/10.48550/ARXIV.2312.11313"
+    authors:
+      - name: "D. Freire-Fernández"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.48550/ARXIV.2312.11313"
+    categories: ["nuclear physics", "two-photon decay"]
+    tags: ["72Ge", "decay", "ARXIV"]
+
+  - title: "Neutron activations for lower s-process temperatures"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327906011"
+    authors:
+      - name: "Tanja Heftrich"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202327906011"
+    categories: ["nuclear physics", "stellar nucleosynthesis"]
+    tags: ["s-process", "neutron activation"]
+
+  - title: "Neutron-induced cross section measurements"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327911009"
+    authors:
+      - name: "C. Massimi"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202327911009"
+    categories: ["nuclear physics", "cross section measurement"]
+    tags: ["neutron-induced", "n_TOF"]
+
+  - title: "New detection systems for an enhanced sensitivity in key stellar (n,γ) measurements"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327913001"
+    authors:
+      - name: "J. Lerendegui-Marco"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202327913001"
+    categories: ["nuclear physics", "detector development"]
+    tags: ["detection systems", "stellar measurements"]
+
+  - title: "New perspectives for neutron capture measurements in the upgraded CERN-n_TOF Facility"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202328401028"
+    authors:
+      - name: "J. Lerendegui-Marco"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202328401028"
+    categories: ["nuclear physics", "facility upgrade", "neutron capture"]
+    tags: ["n_TOF", "neutron capture"]
+
+  - title: "Overview of the dissemination of n_TOF experimental data and resonance parameters"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202328418001"
+    authors:
+      - name: "E. Dupont"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202328418001"
+    categories: ["nuclear physics", "data dissemination"]
+    tags: ["n_TOF", "resonance parameters"]
+
+  - title: "Proton capture on stored radioactive 118Te ions"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2023"
+      url: "https://doi.org/10.1051/epjconf/202327911018"
+    authors:
+      - name: "S. F. Dellmann"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202327911018"
+    categories: ["nuclear physics", "proton capture"]
+    tags: ["radioactive Te", "n_TOF"]
+
+  - title: "Determining neutron-induced reaction cross sections through surrogate reactions at storage rings"
+    publishedIn:
+      name: "Journal of Physics: Conference Series"
+      date: "2023-09-01"
+      url: "https://doi.org/10.1088/1742-6596/2586/1/012082"
+    authors:
+      - name: "M. Sguazzin"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1088/1742-6596/2586/1/012082"
+    categories: ["nuclear physics", "surrogate reactions", "storage rings"]
+    tags: ["storage rings", "cross section"]
+
+  - title: "The neutron time-of-flight facility n_TOF at CERN – Recent facility upgrades and detector developments"
+    publishedIn:
+      name: "Journal of Physics: Conference Series"
+      date: "2023-09-01"
+      url: "https://doi.org/10.1088/1742-6596/2586/1/012150"
+    authors:
+      - name: "C. Domingo-Pardo"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1088/1742-6596/2586/1/012150"
+    categories: ["nuclear physics", "facility report"]
+    tags: ["n_TOF", "upgrades"]
+
+  - title: "Storage, accumulation and deceleration of secondary beams for nuclear astrophysics"
+    publishedIn:
+      name: "Nuclear Instruments and Methods in Physics Research Section B"
+      date: "2023-08"
+      url: "https://doi.org/10.1016/j.nimb.2023.04.059"
+    authors:
+      - name: "Jan Glorius"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1016/j.nimb.2023.04.059"
+    categories: ["beam physics", "nuclear astrophysics"]
+    tags: ["secondary beams", "deceleration"]
+
+  - title: "Status report of the n_TOF facility after the 2nd CERN long shutdown period"
+    publishedIn:
+      name: "EPJ Techniques and Instrumentation"
+      date: "2023-05-17"
+      url: "https://doi.org/10.1140/epjti/s40485-023-00100-w"
+    authors:
+      - name: "Nikolas Patronis"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1140/epjti/s40485-023-00100-w"
+    categories: ["facility report", "instrumentation"]
+    tags: ["n_TOF", "shutdown report"]
+
+  - title: "Ta179(n,γ) cross-section measurement and the astrophysical origin of the Ta180 isotope"
+    publishedIn:
+      name: "Physical Review C"
+      date: "2023-04-13"
+      url: "https://doi.org/10.1103/physrevc.107.045805"
+    authors:
+      - name: "Ruchi Garg"
+      - name: "Sophia Florence Dellmann"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1103/physrevc.107.045805"
+    categories: ["nuclear physics", "astrophysics"]
+    tags: ["Ta179", "Ta180", "cross-section"]
+
+  - title: "Gamma intensities for the β-decay of 97Zr"
+    publishedIn:
+      name: "Nuclear Instruments and Methods in Physics Research Section A"
+      date: "2023-03"
+      url: "https://doi.org/10.1016/j.nima.2022.167891"
+    authors:
+      - name: "Mario Weigand"
+      - name: "Sophia Florence Dellmann"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1016/j.nima.2022.167891"
+    categories: ["nuclear physics", "decay studies"]
+    tags: ["97Zr", "γ intensities", "β-decay"]
+
+  - title: "Advances and new ideas for neutron-capture astrophysics experiments at CERN n_TOF"
+    publishedIn:
+      name: "The European Physical Journal A"
+      date: "2023-01-26"
+      url: "https://doi.org/10.1140/epja/s10050-022-00876-7"
+    authors:
+      - name: "C. Domingo-Pardo"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1140/epja/s10050-022-00876-7"
+    categories: ["astrophysics", "experimental ideas", "neutron capture"]
+    tags: ["n_TOF", "neutron capture"]
+
+  - title: "Activation measurements of neutron capture cross sections at various temperatures"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2022"
+      url: "https://doi.org/10.1051/epjconf/202226011012"
+    authors:
+      - name: "Tanja Heftrich"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202226011012"
+    categories: ["nuclear physics", "activation measurements", "neutron capture"]
+    tags: ["neutron capture", "temperature effects"]
+
+  - title: "Reactor activations to constrain astrophysically relevant cross sections"
+    publishedIn:
+      name: "EPJ Web of Conferences"
+      date: "2022"
+      url: "https://doi.org/10.1051/epjconf/202226011035"
+    authors:
+      - name: "Sophia Dellmann"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1051/epjconf/202226011035"
+    categories: ["nuclear astrophysics", "reactor activations"]
+    tags: ["cross sections", "astrophysics"]
+
+  - title: "The CERN n TOF NEAR station for astrophysics- and application-related neutron activation measurements"
+    publishedIn:
+      name: "Preprint"
+      date: "2022"
+      url: "https://doi.org/10.48550/ARXIV.2209.04443"
+    authors:
+      - name: "N. Patronis"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.48550/ARXIV.2209.04443"
+    categories: ["neutron activation", "preprint"]
+    tags: ["n_TOF NEAR", "astrophysics"]
+
+  - title: "Cluster Superlattice Membranes"
+    publishedIn:
+      name: "ACS Nano"
+      date: "2020-10-27"
+      url: "https://doi.org/10.1021/acsnano.0c05740"
+    authors:
+      - name: "Tobias Hartl"
+      - name: "et al."
+    paper:
+      url: "https://doi.org/10.1021/acsnano.0c05740"
+    categories: ["nanoscience", "materials"]
+    tags: ["cluster membranes", "ACS Nano"]

@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Über mich
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Postdoc-Forscherin
+# your company information
+company:
+  name: Los Alamos National Laboratory
+  url: "https://www.lanl.gov/"
+
+# a summary about you
+summary: 'Ich bin Forscherin im Bereich der nuklearen Astrophysik und verfüge über fundierte Kenntnisse in den Bereichen Versuchsplanung, Versuchsmanagement, Softwareentwicklung, Datenanalyse, Massenspektrometrie und Kernreaktionen.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "sdellmann@lanl.gov"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/SophiaFlorence"
+
+- name: ORCiD
+  icon: "fab fa-orcid"
+  url: "https://orcid.org/0000-0002-6348-858X"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Mein Lebenslauf"
+  url: "files/cv.pdf"

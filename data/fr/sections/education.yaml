@@ -1,0 +1,48 @@
+# section information
+section:
+  name: L'éducation
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Dr. en astrophysique nucléaire expérimentale (magna cum laude)
+  timeframe: 2021-2024
+  institution:
+    name: Université Goethe (Allemagne)
+    url: "https://www.goethe-university-frankfurt.de/en"
+    logo: /images/sections/education/goethe.svg
+  customSections: #(optional)
+    - name: Thèse
+      content: First proton capture reactions on stored radioactive ions
+
+- name: M.Sc. en physique
+  timeframe: 2019-2021
+  institution:
+    name: Université Goethe (Allemagne)
+    url: "https://www.goethe-university-frankfurt.de/en"
+    logo: /images/sections/education/goethe.svg
+  customSections: #(optional)
+    - name: Thèse
+      content: Determination of Thallium-179(n,gamma) cross section
+
+- name: B.Sc. en physique
+  timeframe: 2016-2019
+  institution:
+    name: Université de Cologne (Allemagne)
+    url: "https://www.uni-koeln.de/en/"
+    logo: /images/sections/education/koln.jpg
+  customSections: #(optional)
+    - name: Thèse
+      content: Carbon embedding of metal clusters on Gr on Ir(111)
+
+- name: Double cursus en banque centrale
+  timeframe: 2015-2016
+  institution:
+    name: Banque centrale de la République fédérale d'Allemagne (Allemagne)
+    url: "https://www.bundesbank.de/en"
+    logo: /images/sections/education/bundesbank.png
