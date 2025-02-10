@@ -74,9 +74,9 @@ skills:
     categories: ["others"]
     url: "https://www.gnu.org/software/bash/"
 
-  - name: Geant4
+  - name: Geant3
     logo: /images/sections/skills/geant4.png
-    summary: "Familiar with Geant4 for simulating particle interactions and modeling detector responses in nuclear physics."
+    summary: "Familiar with Geant3 for simulating particle interactions and modeling detector responses in nuclear physics."
     categories: ["others"]
     url: "https://geant4.web.cern.ch/"
 
